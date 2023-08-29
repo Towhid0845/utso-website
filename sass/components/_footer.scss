@@ -1,0 +1,56 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+.footer{
+    font-size: 13px;
+    a.navbar-brand img {
+        padding: 8px 0;
+        width: 126px;
+        height: 54px;
+        object-position: center center;
+    }
+    .social-link a i {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        border-radius: 40px;
+        text-align: center;
+        display: inline-block;
+        margin-right: 12px;
+        color: #fff;
+        font-size: 15px;
+        transition: 0.5s;
+        background: #0d6efd;
+        &:hover{
+            background: $red;
+        }
+    }
+    .getway-image {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+.getway-image img {
+        width: 39px;
+        margin-bottom: 5px;
+        height: 30px;
+        margin-right: 3px;
+    }
+    h5{
+        line-height: 40px;
+    }
+    .border-top-sm > p{
+        padding-bottom: 15px;
+    }
+    .btn-danger{
+        background-color: $red !important;
+    }
+    .text-danger{
+        color: $red !important;
+    }
+}
+
+

@@ -1,0 +1,44 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+.most-view-product {
+	position: fixed;
+	top: -16px;
+	bottom: 0;
+	z-index: 123456;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 80px;
+	max-height: 100vh;
+	pointer-events: none;
+	align-items: center;
+	flex-wrap: wrap;
+
+     ul {
+        margin: 0px;
+        list-style: none;
+        padding: 8px;
+        border: 1px solid #e5e5e5;
+        background-color: #fff;
+        pointer-events: auto;
+        border-radius: 0px 7px 7px 0px;
+    
+        h5 {
+            font-size: 14px;
+            text-align: center;
+            font-weight: 700;
+            color: #212529;
+            font-style: normal;
+        }
+        li a img {
+            position: relative;
+            border-radius: 6px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 100%;
+            background-color: #f9f9f9;
+            padding: 3px 0px;
+        }
+    }
+}

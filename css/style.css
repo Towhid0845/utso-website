@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box !important; }
+
+a {
+  text-decoration: none !important;
+  color: inherit; }
+
+a:hover {
+  text-decoration: none !important;
+  color: inherit; }
+
+ul,
+ol {
+  list-style: none; }
+
+img {
+  vertical-align: middle; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: LatoReguler;
+  src: url(../../lato/Lato-Regular.ttf); }
+@font-face {
+  font-family: LatoBold;
+  src: url(../../lato/Lato-Bold.ttf); }
+@font-face {
+  font-family: LatoBlack;
+  src: url(../../lato/Lato-Black.ttf); }
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444; }
+
+h2.section-title {
+  font-weight: 900;
+  font-size: 38px;
+  color: #000000;
+  padding: 2px 0px;
+  margin-bottom: 11px; }
+
+.bg-red {
+  background-color: #E30000; }
+
+.top-header .container-fluid {
+  padding: 0 78px; }
+  .top-header .container-fluid .top-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 5px 0; }
+    .top-header .container-fluid .top-text i {
+      font-size: 20px; }
+  .top-header .container-fluid .top-text.middle {
+    text-transform: uppercase;
+    font-weight: 900; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #000000; }
+  .navbar .container-fluid {
+    padding: 0px 101px; }
+    .navbar .container-fluid a.navbar-brand img {
+      padding: 8px 0;
+      width: 126px;
+      height: 54px;
+      object-position: center center; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0px; }
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffffffbf; }
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #ff0018; }
+
+.product {
+  padding: 40px 0; }
+  .product .product-slider {
+    position: relative; }
+    .product .product-slider .card {
+      width: 267px !important;
+      margin: 0 15px !important;
+      border-radius: 15px;
+      text-align: center; }
+      .product .product-slider .card img {
+        height: 265px !important;
+        border-radius: 15px 15px 0 0;
+        margin: auto !important; }
+      .product .product-slider .card .card-body .card-title {
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000; }
+      .product .product-slider .card .card-body .card-text {
+        color: red;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px; }
+        .product .product-slider .card .card-body .card-text .discount-text {
+          color: #b4b4b4;
+          text-decoration: line-through; }
+      .product .product-slider .card .card-body .btn-danger {
+        background-color: red; }
+    .product .product-slider .icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 45px;
+      position: absolute;
+      cursor: pointer;
+      font-size: 15px;
+      transition: all linear 0.2s;
+      top: -55px; }
+      .product .product-slider .icon:hover {
+        background-color: #495057;
+        color: #ffffff; }
+    .product .product-slider .left {
+      right: 60px;
+      z-index: 9; }
+    .product .product-slider .right {
+      right: 0; }
+
+.clients {
+  padding: 40px 0; }
+  .clients .supply-title {
+    padding-bottom: 30px; }
+    .clients .supply-title h4 {
+      position: relative; }
+      .clients .supply-title h4::before {
+        content: "";
+        height: 2px;
+        border: 2px solid #d4d4d4;
+        width: 30%;
+        display: block;
+        position: absolute;
+        top: 13px; }
+      .clients .supply-title h4::after {
+        content: "";
+        border: 2px solid #d4d4d4;
+        width: 30%;
+        display: block;
+        position: absolute;
+        top: 13px;
+        right: 0; }
+  .clients .client-slider a {
+    padding: 20px;
+    display: flex; }
+    .clients .client-slider a img {
+      object-fit: contain;
+      transition: all 0.3s ease 0s; }
+
+.contact {
+  background: #e30000;
+  height: 70px;
+  padding: 40px 0; }
+  .contact .contact-info span {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 2px solid #fff;
+    border-radius: 68px;
+    text-align: center;
+    margin-right: 0px;
+    display: inline-block;
+    transform: scale(1); }
+    .contact .contact-info span i {
+      font-size: 25px;
+      color: #ffffff; }
+  .contact .contact-info a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300; }
+
+.shipment {
+  padding: 40px 0 !important; }
+  .shipment .icon img {
+    width: 42px; }
+  .shipment .icon i {
+    font-size: 33px;
+    color: #E30000; }
+  .shipment .title .fw-bold {
+    line-height: 30px; }
+
+.footer {
+  font-size: 13px; }
+  .footer a.navbar-brand img {
+    padding: 8px 0;
+    width: 126px;
+    height: 54px;
+    object-position: center center; }
+  .footer .social-link a i {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 12px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+    background: #0d6efd; }
+    .footer .social-link a i:hover {
+      background: #E30000; }
+  .footer .getway-image {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: unset; }
+  .footer .getway-image img {
+    width: 39px;
+    margin-bottom: 5px;
+    height: 30px;
+    margin-right: 3px; }
+  .footer h5 {
+    line-height: 40px; }
+  .footer .border-top-sm > p {
+    padding-bottom: 15px; }
+  .footer .btn-danger {
+    background-color: #E30000 !important; }
+  .footer .text-danger {
+    color: #E30000 !important; }
+
+.most-view-product {
+  position: fixed;
+  top: -16px;
+  bottom: 0;
+  z-index: 123456;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 80px;
+  max-height: 100vh;
+  pointer-events: none;
+  align-items: center;
+  flex-wrap: wrap; }
+  .most-view-product ul {
+    margin: 0px;
+    list-style: none;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    pointer-events: auto;
+    border-radius: 0px 7px 7px 0px; }
+    .most-view-product ul h5 {
+      font-size: 14px;
+      text-align: center;
+      font-weight: 700;
+      color: #212529;
+      font-style: normal; }
+    .most-view-product ul li a img {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 100%;
+      background-color: #f9f9f9;
+      padding: 3px 0px; }
+
+.highlight-flash-product .card-box {
+  height: 70px;
+  width: 180px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0;
+  padding: 5px 5px;
+  box-shadow: 0px 2px 23px rgba(68, 68, 68, 0.2666666667);
+  border-radius: 11px;
+  transition: 0.8s;
+  border: 1px solid #ffc107;
+  z-index: 1234; }
+
+.highlight-flash-product .card-box a.card-text img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover; }
+
+.highlight-flash-product .card-box a.card-text .content {
+  margin-left: 8px; }
+
+.highlight-flash-product .card-box a.card-text .content h5 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 180px;
+  white-space: nowrap;
+  font-size: 15px;
+  position: relative; }
+
+.highlight-flash-product .card-box a.card-text .content p {
+  margin: 0px;
+  font-size: 12px;
+  color: red; }
+
+.highlight-flash-product .card-box a.box-close {
+  position: absolute;
+  top: 37px;
+  right: 0px;
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  color: red;
+  box-shadow: 0px 6px 7px rgba(68, 68, 68, 0.2666666667);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.7s; }
+
+.highlight-flash-product .card-box:hover a.box-close {
+  right: 8px;
+  opacity: 1;
+  visibility: visible; }
+
+/*# sourceMappingURL=style.css.map */

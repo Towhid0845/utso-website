@@ -1,0 +1,33 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.contact {
+	background: #e30000;
+	height: 70px;
+    padding: 40px 0;
+
+    .contact-info {
+    span {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border: 2px solid #fff;
+        border-radius: 68px;
+        text-align: center;
+        margin-right: 0px;
+        display: inline-block;
+        transform: scale(1);
+        // background: rgba(253, 67, 38, 0.85);
+        i {
+            font-size: 25px;
+            color: #ffffff;
+        }
+    }
+
+     a {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+    }
+}
+}

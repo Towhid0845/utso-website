@@ -1,0 +1,25 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+
+
+.shipment {
+    padding: 40px 0 !important;
+
+    .icon{
+    img {
+        width: 42px;
+    }
+
+    i {
+        font-size: 33px;
+        color: $red;
+    }
+}
+.title{
+    .fw-bold{
+        line-height: 30px;
+    }
+}
+}

@@ -1,0 +1,83 @@
+// @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Rubik:wght@400;500;700&family=Source+Sans+3:wght@400;500;700&display=swap');
+
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: LatoReguler;
+	src: url(../../lato/Lato-Regular.ttf);
+}
+@font-face {
+	font-family: LatoBold;
+	src: url(../../lato/Lato-Bold.ttf);
+}
+@font-face {
+	font-family: LatoBlack;
+	src: url(../../lato/Lato-Black.ttf);
+}
+
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	// font-family: LatoReguler;
+	font-family: system-ui, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #444;
+}
+
+h2.section-title {
+	// font-family: LatoBold;
+	font-weight: 900;
+	font-size: 38px;
+	color: #000000;
+	padding: 2px 0px;
+	margin-bottom: 11px;
+}
+
+.bg-red{
+	background-color: $red;
+}

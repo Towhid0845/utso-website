@@ -1,0 +1,83 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.product {
+    padding: 40px 0;
+
+    .product-slider {
+        position: relative;
+
+        .card {
+            width: 267px !important;
+            margin: 0 15px !important;
+            border-radius: 15px;
+            text-align: center;
+
+            img {
+                height: 265px !important;
+                border-radius: 15px 15px 0 0;
+                margin: auto !important;
+            }
+
+            .card-body {
+
+                .card-title {
+                    // font-family: LatoBlack;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $black;
+                }
+
+                .card-text {
+                    color: red;
+                    // font-family: LatoReguler;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 35px;
+
+                    .discount-text {
+                        color: #b4b4b4;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .btn-danger {
+                    background-color: red;
+                }
+            }
+
+        }
+
+
+        .icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            // background-color: #ffffff33 ;
+            // color: $white !important;
+            text-align: center;
+            line-height: 45px;
+            position: absolute;
+            cursor: pointer;
+            font-size: 15px;
+            transition: all linear 0.2s;
+            top: -55px;
+
+            &:hover {
+                background-color: $ash;
+                color: $white;
+            }
+        }
+
+        .left {
+            right: 60px;
+            z-index: 9;
+        }
+
+        .right {
+            right: 0;
+        }
+    }
+
+
+}
